@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SIT 725 Prac 3</title>
+    <meta name="description" content="basic template for SIT 725 Prac 1">
+    <meta name="author" content="SitePoint">
+
+    <meta property="og:title" content="SIT 725 Prac 3">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="basic template for SIT 725 Prac 1">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-wrapper navbar-size">
+
+            <a href="#" class="brand-logo"><img class="user-image-size" src="images/user.png" /></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a class='link' target="_blank" href="https://www.linkedin.com/in/dilushika-savindi/">Linkdin</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <main class="main-body">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center- align">
+                    <h2 id="heading">Welcome to SIT725-20242-prac3</h2>
+                    <p class="flow- text center- align">This is a demo application that tries to use a few components
+                        from materialize
+                        and through this practical we try to
+                        have some fun with Materialize and its components</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col s12 center-align">
+                    <!-- image -->
+                    <img id="demo" src="images/livedemo.jpg" alt="live demo">
+                </div>
+                <div class="col s12 center-align">
+                    <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton"
+                        data-target="modal1"><i class="material-icons left">auto_fix_high</i>Click Me</a>
+                </div>
+                <div id="card-section">
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal modal-fixed-footer">
+            <div class="row modal-content">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="title" type="text" class="validate">
+                            <label for="title">Title</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="subTitle" type="text" class="validate">
+                            <label for="subTitle">Color</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="path" type="text" class="validate">
+                            <label for="path">Path</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="description" type="text" class="validate">
+                            <label for="description">Description</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 center-align">
+                            <a class="waves-effect waves-light btn" id="formSubmit">submit</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </main>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

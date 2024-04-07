@@ -1,0 +1,61 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 30px;
+    background-color: #f8b5e4;
+
+}
+
+.text {
+    display: inline-block;
+    color: black;
+}
+
+.user-image-size { 
+    height: 35px; 
+    margin: 3px 0;
+     }
+
+.nav {
+    background-color: #b3e5fc;
+}
+
+ .nav-wrapper {
+    background-color: #df3791;
+  top:auto;  
+   
+} 
+
+.card-container {
+    height: 100px;
+    width: 100px;
+   
+} 
+ .link {
+    font-size: 15px;
+} 
+ 
+#demo{
+    height: 200px;
+    width: 270px;
+    margin: 5px 20px;
+} 
+
+#clickMeButton {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.modal-fixed-footer {
+    background-color: transparent;
+    box-shadow: none;
+} 
+
+ .modal-content {
+    box-shadow: inset;
+} 
+
+.container{
+    text-align: center;
+}
